@@ -55,7 +55,7 @@ table {
 
 body {
     background: #333;
-    color: #fff;
+    color: #999;
     font: 500 24px/33px "Fira Sans Condensed", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -140,11 +140,92 @@ body {
 
 /*
     ===============================================
+    Links
+    ===============================================
+*/
+
+.nav a:link {
+    text-decoration: none;
+    color: #999;
+}
+.nav a:visited {
+    color: #999;
+}
+
+/*
+    ===============================================
+    Buttons
+    ===============================================
+*/
+
+.btn {
+    background: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+/*
+    ===============================================
+    Navigation
+    ===============================================
+*/
+
+.nav {
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
+/*
+    ===============================================
+    Section title
+    ===============================================
+*/
+
+.section-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    background: #262626;
+    border: 7px black solid;
+    border-radius: 1%;
+}
+hr {
+    border: 2px double;
+    height: .1em;
+}
+.title-position-absolute {
+    position: absolute
+}
+.title-text {
+    position: relative;
+    top: -66px;
+    line-height: 66px;
+    background: #262626;
+}
+.title-text-portfolio {
+    left: 291px;
+}
+.title-text-contact {
+    left: 262px;
+}
+
+/*
+    ===============================================
     Primary header
     ===============================================
 */
 
-
+header {
+    #padding: 8px 0;
+    background: #262626;
+    border: 7px black solid;
+    border-radius: 1%;
+}
 
 /*
     ===============================================
@@ -229,10 +310,17 @@ body {
     ===============================================
 */
 
+.contact-box {
+    padding: 20px 12px 20px 12px;
+    background: #262626;
+    border: 7px black solid;
+    border-radius: 1%;
+}
 .contact {
     float: left;
 }
 .contact-about {
     float: right;
-    text-align: right;
+    text-align: left;
+    width: 432px;
 }
