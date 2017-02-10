@@ -5,6 +5,7 @@
         <title>Portfolio - Brian Hendrickson</title>
         <link rel="stylesheet" href="assets/stylesheets/main.css">
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </head>
     
     <body>
@@ -15,24 +16,33 @@
         
             <nav class="nav primary-nav row">
                 <ul>
-                    <li><a href="index.html" class="btn">Brian Hendrickson</a></li>
-                    <li><a href="#intro" class="btn">About</a></li>
-                    <li><a href="#portfolio" class="btn">Portfolio</a></li>
-                    <li><a href="#Contact" class="btn">Contact</a></li>
+                    <li><a href="index.html" class="btn" id="nav-name">Brian Hendrickson</a></li><!--
+                    --><li><a href="#intro" class="btn">About</a></li><!--
+                    --><li><a href="#portfolio" class="btn">Portfolio</a></li><!--
+                    --><li><a href="#contact" class="btn">Contact</a></li>
                 </ul>
             </nav>
             
         </header>
         
+        <!--Intro section title-->
+        
+        <section class="section-title container" id="intro">
+            <hr>
+            <div class="title-position-absolute">
+                <p class="title-text title-text-intro">&sect; Brian Hendrickson &sect;</p>
+            </div>
+        </section>
+        
         <!--grid for Brian Hendrickson introduction-->
         
-        <section class="row">
-            <div class="grid intro" id="intro">
+        <section class="row" id ="intro">
+            <div class="grid intro">
                 
                 <!--Brian Hendrickson Intro-->
                 
                 <section class="col-intro-left">
-                    <p class="name">Brian Hendrickson</p>
+                    <!--<p class="name">Brian Hendrickson</p>-->
 
                     <p class="intro-summary">Network Administrator aspiring to make a career change to Web Developer</p>
                     
@@ -49,7 +59,7 @@
         
         <!--Portfolio section title-->
         
-        <section class="section-title container">
+        <section class="section-title container" id="portfolio">
             <hr>
             <div class="title-position-absolute">
                 <p class="title-text title-text-portfolio">&sect; Portfolio &sect;</p>
@@ -96,7 +106,7 @@
 
         <!-- Contact Me section title-->
 
-        <section class="section-title container">
+        <section class="section-title container" id="contact">
             <hr>
             <div class="title-position-absolute">
                 <p class="title-text title-text-contact">&sect; Contact Me &sect;</p>
@@ -113,5 +123,19 @@
             
         </section>
         
+        <!--header-->
+        
+        <footer>
+        
+            <nav class="nav primary-nav row">
+                <ul>
+                    <li><a href="https://twitter.com/b_d_hendrickson" class="twitter-follow-button" data-show-count="false">Follow @b_d_hendrickson</a></li><!--
+                    --><li><a href="#intro" class="btn">About</a></li><!--
+                    --><li><a href="#portfolio" class="btn">Portfolio</a></li><!--
+                    --><li><a href="#contact" class="btn">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </footer>
     </body>
 </html>
