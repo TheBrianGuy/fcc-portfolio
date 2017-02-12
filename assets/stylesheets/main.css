@@ -346,3 +346,23 @@ header {
     text-align: left;
     width: 432px;
 }
+
+/*
+    ===============================================
+    Primary footer
+    ===============================================
+*/
+
+footer {
+    background: #262626;
+    border: 4px black solid;
+    border-radius: 1%;
+    #position: fixed;
+    width: 100%;
+    #top: 0;
+    #top: 0;
+    #z-index: 1;
+}
+.social-icon {
+    padding: 11px 0;
+}
