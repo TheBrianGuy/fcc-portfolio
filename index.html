@@ -118,28 +118,33 @@
             
                     <div class="popup-form">
                         <form action="https://easy-swf-sender-forked.herokuapp.com/form/jo74taqzux6i3j7" method="post">
-                            <div class="form-group">
-                                <label for="name">Name:</label>
-                                <input type="text" id="name" name="name">
-                            </div>
-                            <div class="form-group">
-                                <label for="mail">E-mail:</label>
-                                <input type="email" id="mail" name="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Subject:</label>
-                                <input type="text" id="subject" name="subject">
-                            </div>
-                            <div class="form-group">
-                                <label for="msg">Message:</label>
-                                <textarea id="msg" name="message"></textarea>
-                            </div>
-                            <div>
-                                <input type="text" name="funText" style="display:none">
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" name="submit" value="SEND">
-                            </div>
+                            <fieldset>
+                                <legend>Contact Me</legend>
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" pattern=".{3,}" required title="3 characters mimimum">
+                                </div>
+                                <div class="form-group">
+                                    <label for="mail">E-mail:</label>
+                                    <input type="email" id="mail" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject:</label>
+                                    <input type="text" id="subject" name="subject" pattern=".{5,}" required title="5 characters minimum">
+                                </div>
+                                <div class="form-group">
+                                    <label for="msg">Message:</label>
+                                    <!--Can't set min length for textarea without script-->
+                                    <textarea id="msg" name="message" required></textarea>
+                                </div>
+                                <div>
+                                    <!--<input type="text" name="funText" style="display:none">-->
+                                    <input type="hidden" name="funText">
+                                </div>
+                                <div class="form-group form-button">
+                                    <button name="submit">SEND</button>
+                                </div>
+                                </fieldset>
                         </form>
                     </div>
             

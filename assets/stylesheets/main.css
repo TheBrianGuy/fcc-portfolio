@@ -336,7 +336,7 @@ header {
     float: right;
     text-align: left;
     width: 432px;
-    margin-top: 32px;
+    margin-top: 62px;
     margin-right: 50px;
 }
 .popup-form {
@@ -346,10 +346,10 @@ header {
     border: 15px double black;
     background-color: #333;
     width: 350px;
-    height: 365px;
+    height: 435px;
 }
 .form-group {
-    margin: 5px;
+    margin: 0 5px;
 }
 .form-group label {
     font-size: .7em;
@@ -368,21 +368,23 @@ header {
     background-color: #999;
     border-radius: 5px;
 }
-.form-group button {
-    float: right;
-    height: 3em;
+.form-button button {
+    width: 100%;
+    height: 2em;
     border: 5px solid black;
     border-radius: 4px;
     background-color: #333;
     font-size: .7em;
     font-weight: bold;
     margin-top: 5px;
-    padding: 0 30px;
 }
 .form-group button:hover {
     background-color: black;
     border-color: #262626;
     color: white;
+}
+legend {
+    text-align: center;
 }
 
 /*
