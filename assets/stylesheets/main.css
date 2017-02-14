@@ -386,6 +386,21 @@ header {
 legend {
     text-align: center;
 }
+::-webkit-input-placeholder {
+    color: black;
+}
+:-moz-placeholder {
+    color: black;
+}
+::-moz-placeholder {
+    color: black;
+}
+:-ms-input-placeholder {
+    color: black;
+}
+placeholder {
+    color: black;
+}
 
 /*
     ===============================================
